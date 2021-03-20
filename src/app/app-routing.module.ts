@@ -14,12 +14,17 @@ const routes: Routes = [
   {
     path: 'description-worksite',
     loadChildren: () => import('./description-worksite/description-worksite.module').then( m => m.DescriptionWorksitePageModule)
-  },  {
+  },
+  {
     path: 'add-worksite',
     loadChildren: () => import('./add-worksite/add-worksite.module').then( m => m.AddWorksitePageModule)
   },
 
 
+  {
+    path: 'list-worksite',
+    loadChildren: () => import('./list-worksite/list-worksite.module').then( m => m.ListWorksitePageModule)
+  },
 ];
 
 @NgModule({

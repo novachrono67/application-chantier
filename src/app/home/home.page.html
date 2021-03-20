@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Accueil
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,9 +13,11 @@
     </ion-toolbar>
   </ion-header>
 
+  <IonProgressBar value={0.25} buffer={0.5}></IonProgressBar><br />
+  <IonProgressBar type="indeterminate"></IonProgressBar><br />
+  <IonProgressBar type="indeterminate" reversed={true}></IonProgressBar><br />
+
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
     <img src="../../assets/icon/chantier.jpg">
   </div>
 </ion-content>
