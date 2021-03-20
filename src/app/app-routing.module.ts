@@ -11,6 +11,11 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'description-worksite',
+    loadChildren: () => import('./description-worksite/description-worksite.module').then( m => m.DescriptionWorksitePageModule)
+  },
+
 ];
 
 @NgModule({
