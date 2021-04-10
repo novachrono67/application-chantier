@@ -19,8 +19,6 @@ const routes: Routes = [
     path: 'add-worksite',
     loadChildren: () => import('./add-worksite/add-worksite.module').then( m => m.AddWorksitePageModule)
   },
-
-
   {
     path: 'list-worksite',
     loadChildren: () => import('./list-worksite/list-worksite.module').then( m => m.ListWorksitePageModule)
