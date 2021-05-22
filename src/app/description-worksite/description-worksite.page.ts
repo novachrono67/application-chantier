@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./description-worksite.page.scss'],
 })
 export class DescriptionWorksitePage implements OnInit {
-  images:any = new Array(1,2,3);
+  images:any = new Array();
 
   constructor() { }
 
