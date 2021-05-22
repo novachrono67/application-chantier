@@ -1,23 +1,34 @@
-header{
-  background-color:#209CF3;
+ion-toolbar{
+  --ion-background-color:#3880ff;
+  color:white;
 }
 
-hr{
-
+.lightgrey{
+  color:#A7A5A5;
 }
 
-body{
-  background-color:white;
-  color:black;
+.title1{
+   font-weight: bold;
 }
 
-button{
-  color:black;
-  background-color:silver;
+
+
+.gestionComp{
+  margin-top:35px;
+  margin-bottom:15px;
+  font-weight: bold;
 }
 
-form{
-  color:black;
+.inputComp{
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+
+
+.droite{
+  float: right;
+  margin-right:5px;
 }
 
 #myFile{
@@ -30,8 +41,35 @@ img {
   height: 80px;
 }
 
-IonCol img{
+ion-col img{
   padding:3px;
 }
 
+.ButtonCss{
+ padding:10px;
+ width:70px;
+ z-index: 2;
+ position: absolute;
+ left:0;
+ top:0;
+ right:0;
+ bottom:0;
+}
 
+
+.test{
+  border:1px solid red;
+  border-radius:50%;
+  z-index: 2;
+  position: absolute;
+  top:0px;
+  right:0px;
+  left:0px;
+  bottom:0px;
+  align-items: right !important;
+}
+
+
+ion-row ion-img{
+  height:100px;
+}

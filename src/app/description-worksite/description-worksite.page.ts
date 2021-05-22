@@ -6,10 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./description-worksite.page.scss'],
 })
 export class DescriptionWorksitePage implements OnInit {
+  images:any = new Array(1,2,3);
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  addImage(){
+    console.log("hey");
+    this.images.push(this.images[this.images.length - 1] + 1);
+    console.log(this.images[this.images.length -1] + 1);
+  }
+
+  remove(index:number){
+    console.log(1);
+    this.images.splice(index, 1);
   }
 
 }
