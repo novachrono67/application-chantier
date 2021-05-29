@@ -1,0 +1,27 @@
+ion-input{
+    border-color: var(--ion-color-medium-shade);
+    border-radius: 3px;
+    border-width: 5px;
+    box-shadow: 2px white;
+    background: #f8f9fa;
+   } 
+
+ion-label{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 2px!important;
+    align-items: center!important;
+    padding-right: 0.5em!important;
+    
+}
+
+ion-button{
+    float: right;
+}
+
+ion-list{
+    justify-content: center;
+	
+ 	align-items: center!important;
+}
